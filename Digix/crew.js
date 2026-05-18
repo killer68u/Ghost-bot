@@ -114,7 +114,7 @@ async function connectToWhatsapp(handleMessage) {
                 }
 
                 console.log(`🔄 Requesting pairing code for ${number}`);
-                const code = await sock.requestPairingCode(number, 'DIGICREW');
+                const code = await sock.requestPairingCode(number, 'GHOSTBOT');
                 console.log('📲 Pairing Code:', code);
                 console.log('👉 Enter the code in your WhatsApp to complete pairing.');
 
