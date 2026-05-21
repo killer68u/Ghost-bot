@@ -1,11 +1,8 @@
-
-export const DigixNew = (message) => {
-
+export const GhostNew = (message) => {
     if (!message) return null;
-
-    const content = message.viewOnceMessageV2?.message || message;
     
+    const content = message.viewOnceMessageV2?.message || message;
     return content;
 }
 
-export default  DigixNew;
+export default GhostNew;
